@@ -1,26 +1,13 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
+/* Fondo estilo “eden” */
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  @apply bg-[#0f2c22];
+  background-image:
+    radial-gradient(1200px 600px at 70% 20%, rgba(255,255,255,0.06), transparent 60%),
+    radial-gradient(800px 1000px at 20% 80%, rgba(255,255,255,0.03), transparent 70%);
 }
+.frame { box-shadow: 0 0 0 2px rgba(255,255,255,0.08) inset; border-radius: 20px; }
+.card { @apply bg-white/90 backdrop-blur-sm border border-black/5 shadow-xl; }
