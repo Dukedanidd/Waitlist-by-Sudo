@@ -16,7 +16,7 @@ A beautiful, animated waitlist signup component built with **Next.js**, **TypeSc
 
 ## 🎥 Preview
 
-![Waitlist Component Preview]()
+![Waitlist Component Preview](waitlist-by-sudo.vercel.app)
 
 ## 🧰 Tech Stack
 
