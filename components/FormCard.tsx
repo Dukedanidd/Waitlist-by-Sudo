@@ -19,13 +19,13 @@ export default function FormCard() {
 
       {/* Subtítulo 1 - Fade y escala */}
       <p className="mt-6 text-neutral-700 animate-subtitle-1">
-        The workspace for creators
+        The component for creators and indie makers
       </p>
 
       {/* Subtítulo 2 - Slide desde abajo */}
       <p className="mt-2 text-neutral-500 animate-subtitle-2">
-        Capture anything. Remember everything. <br className="hidden sm:block" />
-        Put your digital garden to work with AI.
+        Collect emails and build your waitlist. <br className="hidden sm:block" />
+        Get notified when you launch your product.
       </p>
 
       {/* Form - Fade in */}
